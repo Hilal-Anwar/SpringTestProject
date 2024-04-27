@@ -14,7 +14,7 @@ const AppNavbar = () => {
         setIsOpen(!isOpen)
       }}/>
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="justify-content-end" style={{ width: "100%" }} navbar>
+        <Nav className="justify-content-end" style={{ width: "100%"}} navbar>
           <NavItem>
             <NavLink href="https://gradeclasses.com/">@graded</NavLink>
           </NavItem>

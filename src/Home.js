@@ -49,11 +49,11 @@ const Home = () => {
 
   const message = user ?
     <h2>Welcome, {user.name}!</h2> :
-    <p>Please log in to manage your JUG Tour.</p>;
+    <p>Please log in to manage JUG Tour.</p>;
 
   const button = authenticated ?
     <div>
-      <Button color="link"><Link to="/groups">Manage JUG Tour</Link></Button>
+      <Button color="link"><Link to="/groups">Manage students</Link></Button>
       <br/>
       <Button color="link" onClick={logout}>Logout</Button>
     </div> :
